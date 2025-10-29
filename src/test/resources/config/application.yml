@@ -1,0 +1,5 @@
+baseUrl: "https://example.com"
+browser: "chrome"
+headless: false
+implicitWait: 10
+pageLoadTimeout: 30
