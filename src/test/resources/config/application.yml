@@ -1,0 +1,19 @@
+baseUrl: "https://example.com"
+browser: "chrome"
+headless: false
+implicitWait: 10
+pageLoadTimeout: 30
+apiBaseUrl: "https://jsonplaceholder.typicode.com"
+
+desktop:
+  platform: "windows"
+  app: "Root"
+  winAppDriverUrl: "http://127.0.0.1:4723"
+
+mobile:
+  platform: "android"
+  deviceName: "emulator-5554"
+  appiumUrl: "http://127.0.0.1:4723/wd/hub"
+  app: "/path/to/app.apk"
+  appPackage: "com.example.app"
+  appActivity: "com.example.app.MainActivity"
