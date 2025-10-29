@@ -1,0 +1,16 @@
+{
+  "android": {
+    "platformName": "Android",
+    "deviceName": "emulator-5554",
+    "automationName": "UiAutomator2",
+    "app": "/path/to/app.apk",
+    "appPackage": "com.example.app",
+    "appActivity": "com.example.app.MainActivity"
+  },
+  "ios": {
+    "platformName": "iOS",
+    "deviceName": "iPhone Simulator",
+    "automationName": "XCUITest",
+    "app": "/path/to/app.app"
+  }
+}
