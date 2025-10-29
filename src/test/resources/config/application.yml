@@ -3,3 +3,4 @@ browser: "chrome"
 headless: false
 implicitWait: 10
 pageLoadTimeout: 30
+apiBaseUrl: "https://jsonplaceholder.typicode.com"
