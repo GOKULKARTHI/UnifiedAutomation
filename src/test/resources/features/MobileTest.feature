@@ -4,3 +4,8 @@ Feature: Mobile Application Testing
   Scenario: Launch mobile app and check screen
     Given I launch the mobile application
     Then the mobile screen should be visible
+
+  @mobile @regression
+  Scenario: Another mobile test
+    Given I launch the mobile application
+    Then the mobile screen should be visible
